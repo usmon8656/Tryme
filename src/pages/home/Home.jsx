@@ -15,7 +15,7 @@ function Home({ data }) {
                         <button>Start Looking</button>
                     </div>
                     <div className="hero_img">
-                        <img src="../public/img/hero_img.jpg" alt="" />
+                        <img src="/img/hero_img.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@ function Home({ data }) {
                 <section className='sec_2'>
                     <div className="container">
                         <div className="img">
-                            <img src="../public/img/sec_2.jpg" alt="" />
+                            <img src="/img/sec_2.jpg" alt="" />
                         </div>
                         <div className="info">
                             <h3>Long heading is what you see here in this feature section</h3>

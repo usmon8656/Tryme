@@ -8,7 +8,7 @@ function Footer() {
             <footer>
                 <div className="container">
                     <div className="logo">
-                        <img src="../public/img/logo.svg" alt="" />
+                        <img src="/img/logo.svg" alt="" />
                     </div>
                     <ul>
                         <li><Link to={'/'}>Home</Link></li>
