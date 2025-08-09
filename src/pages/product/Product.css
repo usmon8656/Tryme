@@ -1,0 +1,136 @@
+.product .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 110px 0;
+    gap: 80px;
+}
+
+.images{
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+    gap: 16px;
+}
+
+.product .imgs{
+    width: 12.308%;
+    display: flex;
+    flex-direction: column;
+    /* width: 80px; */
+    gap: 16px;
+}
+
+.product .imgs img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.product .main_img{
+    width: 85%;
+    max-height: 640px;
+}
+
+.product .main_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.product .info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #252525;
+    margin-bottom: 8px;
+}
+
+.product h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.product .info>p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #252525;
+    margin-bottom: 24px;
+}
+
+.product .select{
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.product .select p,
+.product .aa p{
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #252525;
+}
+
+.product select{
+    padding: 15px;
+    width: 100%;
+    border: 2px solid #252525;
+    border-radius: 10px;
+}
+
+.product .options{
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.product .options button{
+    padding: 8px 20px;
+}
+
+.product .options button:hover{
+    background-color: #252525;
+    color: white;
+}
+
+.product .btns{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.product .btns button{
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 20px 0;
+}
+
+.product .btns .add{
+    background-color: #F6E6CD;
+    color: #252525;
+}
+
+.product .btns .buy{
+    background-color: #252525;
+    color: white;
+}
