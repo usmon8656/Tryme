@@ -208,6 +208,7 @@ h1 {
 }
 
 .sec_2 .info span p{
+    width: auto;
     margin-bottom: 0;
 }
 
